@@ -6,6 +6,17 @@ body {
     color: #081626;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #3082B7;
+    background-color: #081626;
+    width: 750px;
+}
+
+p {
+    width: 750px;
+}
+
+#image {
+    width: 750px;
+    height: auto;
 }
