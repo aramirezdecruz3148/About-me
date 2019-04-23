@@ -10,12 +10,20 @@ h1 {
     color: #F2E6E3;
     background-color: #2FB9C8;
     width: 750px;
+    margin-bottom: 7%;
 }
 
-h2, h3 {
+h2 {
     color: #F2E6E3;
     background-color: #2FB9C8;
     width: 550px;
+}
+
+h3 {
+    color: #F2E6E3;
+    background-color: #2FB9C8;
+    width: 550px;
+    margin-top: 5%;
 }
 
 p {
@@ -23,7 +31,8 @@ p {
 }
 
 #image {
-    width: 550px;
+    width: 460px;
     height: auto;
     background-color: #7896A7;
+    float: right;
 }
