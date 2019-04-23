@@ -7,5 +7,9 @@ const submitButton = document.getElementById('submit-button');
 const quizResult = document.getElementById('quiz-result');
 
 submitButton.addEventListener('click', () => {
-
+    const qOneAnswer = qOne.value;
+    const qTwoAnswer = qTwo.value;
+    const qThreeAnswer = qThree.value;
+    const qFourAnswer = qFour.value;
+    const qFiveAnswer = qFive.value;
 });
