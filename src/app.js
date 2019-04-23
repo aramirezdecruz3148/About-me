@@ -5,3 +5,7 @@ const qFour = document.getElementById('q4');
 const qFive = document.getElementById('q5');
 const submitButton = document.getElementById('submit-button');
 const quizResult = document.getElementById('quiz-result');
+
+submitButton.addEventListener('click', () => {
+
+});
