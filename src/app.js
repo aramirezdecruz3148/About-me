@@ -1,3 +1,5 @@
+import scoreResult from './src/score-result.js';
+
 const qOne = document.getElementById('q1');
 const qTwo = document.getElementById('q2');
 const qThree = document.getElementById('q3');
