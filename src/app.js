@@ -1,4 +1,4 @@
-import scoreResult from './src/score-result.js';
+import scoreResult from './score-result.js';
 
 const qOne = document.getElementById('q1');
 const qTwo = document.getElementById('q2');
