@@ -14,4 +14,12 @@ submitButton.addEventListener('click', () => {
     const qThreeAnswer = qThree.value;
     const qFourAnswer = qFour.value;
     const qFiveAnswer = qFive.value;
+
+    const score = scoreResult(qOneAnswer, qTwoAnswer, qThreeAnswer, qFourAnswer, qFiveAnswer);
+   
+    const message = 'You got ' + score + '/5 correct';
+  
+    quizResult.textContent = message;
+    
+
 });
