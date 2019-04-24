@@ -8,23 +8,23 @@ function scoreResult(qOne, qTwo, qThree, qFour, qFive) {
     let score = 0;
 
     if(qOne === 'bugs') {
-        score += 1;
+        score++;
     }
 
     if(qTwo === 'pizza') {
-        score += 1;
+        score++;
     }
 
     if(qThree === 'kitties') {
-        score += 1;
+        score++;
     }
 
     if(qFour === 'trump') {
-        score += 1;
+        score++;
     }
 
     if(qFive === 'humaniod') {
-        score += 1;
+        score++;
     }
     return score;
 }
