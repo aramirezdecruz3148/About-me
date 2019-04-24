@@ -36,3 +36,33 @@ p {
     background-color: #7896A7;
     float: right;
 }
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 3px #2FB9C8 solid;
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: lime;
+    color: #081626;
+    font-family: Dokdo;
+    font-size: 1.2em;
+    height: 30px;
+    width: 150px;
+}
+
+#quiz-result {
+    font-size: 2em;
+    color: #081626;
+}
+
+footer {
+    font-size: .7em;
+}
